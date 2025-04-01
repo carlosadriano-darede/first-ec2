@@ -22,7 +22,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "bkt01042025"
+    bucket = "bkt0919"
     key    = "terraform/first-ec2-cloud"
     region = "us-east-1"
   }
